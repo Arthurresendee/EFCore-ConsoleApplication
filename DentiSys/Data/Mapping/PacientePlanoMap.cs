@@ -13,10 +13,20 @@ namespace DentiSys.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<PacientePlano> builder)
         {
-            builder.HasKey(p => new {p.IdPlano,p.IdPaciente});
+            builder.ToTable("PacientePlanos");
+
+            builder.HasKey(p => new {p.IdPlano, p.IdPaciente});
+
+            builder.Property(p => p.IdPaciente)
+                .IsRequired();
+
+            builder.Property(p => p.IdPlano)
+                .IsRequired();
 
             builder.Property(p => p.PlanoAtivo)
-                .HasColumnType("BIT");
+                .HasColumnName("PlanoAtivo")
+                .HasColumnType("BIT")
+                .IsRequired();
         }
     }
 }
