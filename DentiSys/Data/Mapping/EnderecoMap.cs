@@ -13,16 +13,18 @@ namespace DentiSys.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
+            builder.ToTable("Endereco");
+
             builder.HasKey(e => e.Id);
 
             builder.Property(e => e.Id)
-                .UseIdentityColumn(1,1);
+                .ValueGeneratedOnAdd()
+                .UseIdentityColumn();
 
 
             builder.Property(e => e.CEP)
                 .HasColumnName("CEP")
                 .HasColumnType("nvarhar")
-                .HasMaxLength(8)
                 .HasMaxLength(8)
                 .IsRequired(true);
 
@@ -58,6 +60,7 @@ namespace DentiSys.Data.Mapping
 
             builder.HasIndex(e => e.CEP, "IX_Endereco_CEP")
                 .IsUnique();
+
 
         }
     }

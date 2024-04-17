@@ -12,6 +12,10 @@ namespace DentiSys.Models
         public string? Cidade { get; set; }
         public string? Rua { get; set; }
         public string? Numero { get; set; }
+
+        public Dentista? Dentista { get; set; }
+
+        public Paciente? Paciente { get; set; }
     }
     
 }

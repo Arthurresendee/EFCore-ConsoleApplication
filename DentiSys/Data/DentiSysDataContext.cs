@@ -25,7 +25,8 @@ namespace DentiSys.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            //modelBuilder.Entity<Endereco>()
+            Relacionamento
         }
     }
 }
