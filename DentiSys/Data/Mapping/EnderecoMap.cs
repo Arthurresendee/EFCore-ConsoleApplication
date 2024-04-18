@@ -24,9 +24,9 @@ namespace DentiSys.Data.Mapping
 
             builder.Property(e => e.CEP)
                 .HasColumnName("CEP")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(8)
-                .IsRequired(true);
+                .IsRequired();
 
             builder.Property(e => e.Pais)
                 .HasColumnName("Pais")
@@ -60,7 +60,6 @@ namespace DentiSys.Data.Mapping
 
             builder.HasIndex(e => e.CEP, "IX_Endereco_CEP")
                 .IsUnique();
-
 
         }
     }

@@ -23,15 +23,15 @@ namespace DentiSys.Data.Mapping
 
             builder.Property(x => x.Nome)
                 .HasColumnName("Nome")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(200)
-                .IsRequired(true);
+                .IsRequired();
 
             builder.Property(x => x.SobreNome)
                 .HasColumnName("CEP")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(8)
-                .IsRequired(true);
+                .IsRequired();
 
             builder.Property(x => x.Idade)
                 .HasColumnName("Idade")
@@ -40,24 +40,24 @@ namespace DentiSys.Data.Mapping
 
             builder.Property(x => x.CPF)
                 .HasColumnName("CPF")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(11)
                 .IsRequired(false);
 
             builder.Property(x => x.DataDeAniversario)
                 .HasColumnName("DataDeAniversario")
-                .HasColumnType("SMALDATETIME")
+                .HasColumnType("SMALLDATETIME")
                 .IsRequired(false);
 
             builder.Property(x => x.Email)
                 .HasColumnName("Email")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(5)
                 .IsRequired(false);
 
             builder.Property(x => x.NumeroDeTelefone)
                 .HasColumnName("NumeroDeTelefone")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(15)
                 .IsRequired(false);
 
@@ -68,10 +68,19 @@ namespace DentiSys.Data.Mapping
 
             builder.Property(x => x.NumeroDeRegistro)
                 .HasColumnName("NumeroDeRegistro")
-                .HasColumnType("nvarhar")
+                .HasColumnType("nvarchar")
                 .HasMaxLength(9)
                 .IsRequired(false);
 
+            builder.Property(x => x.IdEndereco)
+                .HasColumnName("IdEndereco")
+                .HasColumnType("INT")
+                .IsRequired();
+
+            builder.HasOne(x => x.Endereco)
+                .WithOne(x => x.Dentista)
+                .HasForeignKey<Dentista>(x => x.IdEndereco)
+                .IsRequired();
         }
     }
 }

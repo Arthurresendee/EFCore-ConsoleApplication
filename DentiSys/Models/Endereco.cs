@@ -14,8 +14,6 @@ namespace DentiSys.Models
         public string? Numero { get; set; }
 
         public Dentista? Dentista { get; set; }
-
-        public Paciente? Paciente { get; set; }
     }
     
 }
