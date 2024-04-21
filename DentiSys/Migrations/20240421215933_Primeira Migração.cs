@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DentiSys.Migrations
 {
     /// <inheritdoc />
-    public partial class teste : Migration
+    public partial class PrimeiraMigração : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -70,7 +70,7 @@ namespace DentiSys.Migrations
                     Nome = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     CEP = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
                     Idade = table.Column<int>(type: "INT", nullable: true),
-                    CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true),
+                    CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true, defaultValue: "00000000000"),
                     DataDeAniversario = table.Column<DateTime>(type: "SMALLDATETIME", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(5)", maxLength: 5, nullable: true),
                     NumeroDeTelefone = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: true),
@@ -95,24 +95,24 @@ namespace DentiSys.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SobreNome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Idade = table.Column<int>(type: "int", nullable: true),
-                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DataDeAniversario = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NumeroDeTelefone = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    IdEndereco = table.Column<int>(type: "int", nullable: true),
-                    EnderecoId = table.Column<int>(type: "int", nullable: true)
+                    Nome = table.Column<string>(type: "varchar(200)", maxLength: 200, nullable: false),
+                    SobreNome = table.Column<string>(type: "varchar(200)", maxLength: 200, nullable: false),
+                    Idade = table.Column<int>(type: "INT", nullable: true, defaultValue: 18),
+                    CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true, defaultValue: "00000000000"),
+                    DataDeAniversario = table.Column<DateTime>(type: "SMALLDATETIME", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(5)", maxLength: 5, nullable: true),
+                    NumeroDeTelefone = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: true),
+                    IdEndereco = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Pacientes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Pacientes_Endereco_EnderecoId",
-                        column: x => x.EnderecoId,
+                        name: "FK_Pacientes_Endereco_IdEndereco",
+                        column: x => x.IdEndereco,
                         principalTable: "Endereco",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -159,9 +159,10 @@ namespace DentiSys.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pacientes_EnderecoId",
+                name: "IX_Pacientes_IdEndereco",
                 table: "Pacientes",
-                column: "EnderecoId");
+                column: "IdEndereco",
+                unique: true);
         }
 
         /// <inheritdoc />

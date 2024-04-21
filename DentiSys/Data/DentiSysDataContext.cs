@@ -28,14 +28,11 @@ namespace DentiSys.Data
         {
             modelBuilder.ApplyConfiguration(new DentistaMap());
             modelBuilder.ApplyConfiguration(new EnderecoMap());
+            modelBuilder.ApplyConfiguration(new PacienteMap());
             modelBuilder.ApplyConfiguration(new PacientePlanoMap());
             modelBuilder.ApplyConfiguration(new PacienteProcedimentoMap());
 
-            //modelBuilder.Entity<Dentista>()
-            //    .HasOne(x => x.Endereco)
-            //    .WithOne(x => x.Dentista)
-            //    .HasForeignKey<Dentista>(x => x.IdEndereco)
-            //    .IsRequired();
+
         }
     }
 }

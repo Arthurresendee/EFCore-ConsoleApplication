@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DentiSys.Migrations
 {
     [DbContext(typeof(DentiSysDataContext))]
-    [Migration("20240418145820_teste")]
-    partial class teste
+    [Migration("20240421215933_Primeira Migração")]
+    partial class PrimeiraMigração
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,8 +34,10 @@ namespace DentiSys.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CPF")
+                        .ValueGeneratedOnAdd()
                         .HasMaxLength(11)
                         .HasColumnType("nvarchar")
+                        .HasDefaultValue("00000000000")
                         .HasColumnName("CPF");
 
                     b.Property<DateTime?>("DataDeAniversario")
@@ -145,37 +147,54 @@ namespace DentiSys.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CPF")
-                        .HasColumnType("nvarchar(max)");
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar")
+                        .HasDefaultValue("00000000000")
+                        .HasColumnName("CPF");
 
                     b.Property<DateTime?>("DataDeAniversario")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("SMALLDATETIME")
+                        .HasColumnName("DataDeAniversario");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("EnderecoId")
-                        .HasColumnType("int");
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("Email");
 
                     b.Property<int?>("IdEndereco")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("Idade")
-                        .HasColumnType("int");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INT")
+                        .HasDefaultValue(18)
+                        .HasColumnName("Idade");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar")
+                        .HasColumnName("Nome");
 
                     b.Property<string>("NumeroDeTelefone")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("NumeroDeTelefone");
 
                     b.Property<string>("SobreNome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar")
+                        .HasColumnName("SobreNome");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EnderecoId");
+                    b.HasIndex("IdEndereco")
+                        .IsUnique();
 
-                    b.ToTable("Pacientes");
+                    b.ToTable("Pacientes", (string)null);
                 });
 
             modelBuilder.Entity("DentiSys.Models.PacientePlano", b =>
@@ -271,8 +290,10 @@ namespace DentiSys.Migrations
             modelBuilder.Entity("DentiSys.Models.Paciente", b =>
                 {
                     b.HasOne("DentiSys.Models.Endereco", "Endereco")
-                        .WithMany()
-                        .HasForeignKey("EnderecoId");
+                        .WithOne("Paciente")
+                        .HasForeignKey("DentiSys.Models.Paciente", "IdEndereco")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Endereco");
                 });
@@ -291,6 +312,8 @@ namespace DentiSys.Migrations
             modelBuilder.Entity("DentiSys.Models.Endereco", b =>
                 {
                     b.Navigation("Dentista");
+
+                    b.Navigation("Paciente");
                 });
 #pragma warning restore 612, 618
         }

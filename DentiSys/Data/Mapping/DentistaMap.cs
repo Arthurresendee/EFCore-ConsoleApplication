@@ -42,6 +42,7 @@ namespace DentiSys.Data.Mapping
                 .HasColumnName("CPF")
                 .HasColumnType("nvarchar")
                 .HasMaxLength(11)
+                .HasDefaultValue("00000000000")
                 .IsRequired(false);
 
             builder.Property(x => x.DataDeAniversario)
