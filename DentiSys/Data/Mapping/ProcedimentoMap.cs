@@ -30,7 +30,8 @@ namespace DentiSys.Data.Mapping
             builder.Property(x => x.TipoDeProcedimento)
                 .HasColumnName("TipoDeProcedimento")
                 .HasColumnType("INT")
-                .IsRequired(false);
+                .HasDefaultValue(null)
+                .IsRequired();
 
             builder.Property(x => x.Descricao)
                 .HasColumnName("Descricao")

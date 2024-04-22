@@ -3,9 +3,14 @@ using DentiSys.Models;
 
 var context = new DentiSysDataContext();
 
-//InserirValoresIniciais();
 
-//context.SaveChanges();
+var enderecos = context.Enderecos
+    .ToList();
+
+foreach (var endereco in enderecos)
+    Console.WriteLine(endereco.Cidade);
+
+context.SaveChanges();
 
 static void InserirValoresIniciais()
 {

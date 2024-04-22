@@ -6,7 +6,7 @@ namespace DentiSys.Models
     {
         public int Id { get; set; }
         public string Titulo { get; set; }
-        public TipoDePlano TipoDePlano { get; set; }
+        public TipoDePlano? TipoDePlano { get; set; }
         public string Descricao { get; set; }
         public string Coberturas { get; set; }
         public DateTime DataInicial { get; set; }

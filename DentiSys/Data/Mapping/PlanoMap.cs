@@ -30,7 +30,8 @@ namespace DentiSys.Data.Mapping
             builder.Property(x => x.TipoDePlano)
                 .HasColumnName("TipoDePlano")
                 .HasColumnType("INT")
-                .IsRequired(false);
+                .HasDefaultValue(null)
+                .IsRequired();
 
             builder.Property(x => x.Descricao)
                 .HasColumnName("Descricao")
@@ -48,12 +49,13 @@ namespace DentiSys.Data.Mapping
                 .HasColumnName("DataInicial")
                 .HasColumnType("SMALLDATETIME")
                 .HasDefaultValue(DateTime.Now)
-                .IsRequired(false);
+                .IsRequired();
 
             builder.Property(x => x.DataFinal)
                 .HasColumnName("DataFinal")
                 .HasColumnType("SMALLDATETIME")
-                .IsRequired(false);
+                .HasDefaultValue(null)
+                .IsRequired();
         }
     }
 }
