@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\data\\dentisysdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\dentisysdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\enderecomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\enderecomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\data\\mapping\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\planomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\planomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\pacientemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\pacienteprocedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\pacienteprocedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\procedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\procedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\pacienteplanomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\pacienteplanomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\dentisysdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\dentisysdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\dentista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\dentista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\procedimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\procedimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\data\\mapping\\pacienteprocedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\pacienteprocedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\pacienteplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\pacienteplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\pacienteprocedimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,48 +67,8 @@
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\plano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\data\\mapping\\pacienteplanomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\pacienteplanomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\procedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\procedimentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\planomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\planomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|c:\\dev\\sistemaodontologico-efcore-consoleapplication\\sistemaodontologico-efcore-consoleapplication\\dentisys\\data\\mapping\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\dentistamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\enums\\tipodeprocedimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\enums\\tipodeprocedimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\data\\mapping\\enderecomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:data\\mapping\\enderecomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\pacienteplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\pacienteplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\dentista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|solutionrelative:models\\dentista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130649_Relacionamento n-p-n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240422130649_Relacionamento n-p-n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130340_Relacionamento n-p-n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240422130340_Relacionamento n-p-n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0696074E-5FE9-492C-91C3-761B8FC1DDBA}|DentiSys.csproj|C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\models\\enums\\tipodeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,18 +93,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 100,
+          "DockedWidth": 106,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAYAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:04:48.043Z",
               "IsPinned": true,
@@ -120,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "Models\\Paciente.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Paciente.cs",
               "RelativeToolTip": "Models\\Paciente.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBMAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T12:35:12.796Z",
               "IsPinned": true,
@@ -134,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Plano.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Plano.cs",
               "RelativeDocumentMoniker": "Models\\Plano.cs",
@@ -148,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "PacientePlano.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\PacientePlano.cs",
               "RelativeDocumentMoniker": "Models\\PacientePlano.cs",
@@ -162,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Dentista.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Dentista.cs",
               "RelativeDocumentMoniker": "Models\\Dentista.cs",
@@ -176,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "Models\\Endereco.cs",
@@ -194,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "20240412134227_First-Migration.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240412134227_First-Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240412134227_First-Migration.cs",
@@ -202,11 +194,12 @@
               "RelativeToolTip": "Migrations\\20240412134227_First-Migration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T13:42:28.053Z"
+              "WhenOpened": "2024-04-12T13:42:28.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "TipoDeUsuario.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Enums\\TipoDeUsuario.cs",
               "RelativeDocumentMoniker": "Models\\Enums\\TipoDeUsuario.cs",
@@ -219,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "TipoDeProcedimento.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Enums\\TipoDeProcedimento.cs",
               "RelativeDocumentMoniker": "Models\\Enums\\TipoDeProcedimento.cs",
@@ -232,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "TipoDePlano.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Enums\\TipoDePlano.cs",
               "RelativeDocumentMoniker": "Models\\Enums\\TipoDePlano.cs",
@@ -245,20 +238,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Procedimento.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Procedimento.cs",
               "RelativeDocumentMoniker": "Models\\Procedimento.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\Procedimento.cs",
               "RelativeToolTip": "Models\\Procedimento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T12:35:59.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "PacienteProcedimento.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Models\\PacienteProcedimento.cs",
               "RelativeDocumentMoniker": "Models\\PacienteProcedimento.cs",
@@ -271,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "DentiSys.csproj",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\DentiSys.csproj",
               "RelativeDocumentMoniker": "DentiSys.csproj",
@@ -279,103 +272,39 @@
               "RelativeToolTip": "DentiSys.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T12:11:44.918Z"
+              "WhenOpened": "2024-04-12T12:11:44.918Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 170,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 106,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PlanoMap.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PlanoMap.cs",
-              "RelativeDocumentMoniker": "Data\\Mapping\\PlanoMap.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PlanoMap.cs",
-              "RelativeToolTip": "Data\\Mapping\\PlanoMap.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAADcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T13:30:12.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ProcedimentoMap.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\ProcedimentoMap.cs",
               "RelativeDocumentMoniker": "Data\\Mapping\\ProcedimentoMap.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\ProcedimentoMap.cs",
               "RelativeToolTip": "Data\\Mapping\\ProcedimentoMap.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCAAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T13:12:09.013Z",
+              "WhenOpened": "2024-04-22T14:07:53.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20240422130649_Relacionamento n-p-n.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130649_Relacionamento n-p-n.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240422130649_Relacionamento n-p-n.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130649_Relacionamento n-p-n.cs",
-              "RelativeToolTip": "Migrations\\20240422130649_Relacionamento n-p-n.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "PlanoMap.cs",
+              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PlanoMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\PlanoMap.cs",
+              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PlanoMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\PlanoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T13:06:49.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240422130340_Relacionamento n-p-n.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130340_Relacionamento n-p-n.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240422130340_Relacionamento n-p-n.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Migrations\\20240422130340_Relacionamento n-p-n.cs",
-              "RelativeToolTip": "Migrations\\20240422130340_Relacionamento n-p-n.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T13:03:40.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DentiSysDataContext.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\DentiSysDataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DentiSysDataContext.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\DentiSysDataContext.cs",
-              "RelativeToolTip": "Data\\DentiSysDataContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:21:17.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PacienteMap.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacienteMap.cs",
-              "RelativeDocumentMoniker": "Data\\Mapping\\PacienteMap.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacienteMap.cs",
-              "RelativeToolTip": "Data\\Mapping\\PacienteMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T13:11:16.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DentistaMap.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\DentistaMap.cs",
-              "RelativeDocumentMoniker": "Data\\Mapping\\DentistaMap.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\DentistaMap.cs",
-              "RelativeToolTip": "Data\\Mapping\\DentistaMap.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwC8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T14:31:14.638Z",
+              "WhenOpened": "2024-04-22T14:07:52.149Z",
               "EditorCaption": ""
             },
             {
@@ -386,35 +315,74 @@
               "RelativeDocumentMoniker": "Data\\Mapping\\PacienteProcedimentoMap.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacienteProcedimentoMap.cs",
               "RelativeToolTip": "Data\\Mapping\\PacienteProcedimentoMap.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T01:00:15.646Z",
+              "WhenOpened": "2024-04-22T14:05:41.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EnderecoMap.cs",
-              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\EnderecoMap.cs",
-              "RelativeDocumentMoniker": "Data\\Mapping\\EnderecoMap.cs",
-              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\EnderecoMap.cs",
-              "RelativeToolTip": "Data\\Mapping\\EnderecoMap.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T13:47:36.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "PacientePlanoMap.cs",
               "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacientePlanoMap.cs",
               "RelativeDocumentMoniker": "Data\\Mapping\\PacientePlanoMap.cs",
               "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacientePlanoMap.cs",
               "RelativeToolTip": "Data\\Mapping\\PacientePlanoMap.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCkAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T14:14:42.815Z",
+              "WhenOpened": "2024-04-22T14:05:36.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteMap.cs",
+              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacienteMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\PacienteMap.cs",
+              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\PacienteMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\PacienteMap.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:05:00.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DentiSysDataContext.cs",
+              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\DentiSysDataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DentiSysDataContext.cs",
+              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\DentiSysDataContext.cs*",
+              "RelativeToolTip": "Data\\DentiSysDataContext.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAA8wB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:59:17.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnderecoMap.cs",
+              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\EnderecoMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\EnderecoMap.cs",
+              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\EnderecoMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\EnderecoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:58:56.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DentistaMap.cs",
+              "DocumentMoniker": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\DentistaMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\DentistaMap.cs",
+              "ToolTip": "C:\\dev\\SistemaOdontologico-EFCore-ConsoleApplication\\SistemaOdontologico-EFCore-ConsoleApplication\\DentiSys\\Data\\Mapping\\DentistaMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\DentistaMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:58:12.847Z",
               "EditorCaption": ""
             }
           ]

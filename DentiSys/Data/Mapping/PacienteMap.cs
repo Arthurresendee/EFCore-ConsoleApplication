@@ -12,8 +12,6 @@ namespace DentiSys.Data.Mapping
 {
     public class PacienteMap : IEntityTypeConfiguration<Paciente>
     {
-        public DbSet<Endereco> Enderecos { get; set; }
-        public DbSet<Dentista> Dentistas { get; set; }
         public void Configure(EntityTypeBuilder<Paciente> builder)
         {
             builder.ToTable("Pacientes");

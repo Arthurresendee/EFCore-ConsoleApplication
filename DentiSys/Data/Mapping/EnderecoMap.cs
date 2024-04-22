@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DentiSys.Data.Mapping
 {
-    internal class EnderecoMap : IEntityTypeConfiguration<Endereco>
+    public class EnderecoMap : IEntityTypeConfiguration<Endereco>
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
