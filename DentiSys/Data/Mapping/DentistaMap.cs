@@ -28,9 +28,9 @@ namespace DentiSys.Data.Mapping
                 .IsRequired();
 
             builder.Property(x => x.SobreNome)
-                .HasColumnName("CEP")
+                .HasColumnName("SobreNome")
                 .HasColumnType("nvarchar")
-                .HasMaxLength(8)
+                .HasMaxLength(200)
                 .IsRequired();
 
             builder.Property(x => x.Idade)

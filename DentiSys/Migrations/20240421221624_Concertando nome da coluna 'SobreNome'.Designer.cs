@@ -4,6 +4,7 @@ using DentiSys.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DentiSys.Migrations
 {
     [DbContext(typeof(DentiSysDataContext))]
-    partial class DentiSysDataContextModelSnapshot : ModelSnapshot
+    [Migration("20240421221624_Concertando nome da coluna 'SobreNome'")]
+    partial class ConcertandonomedacolunaSobreNome
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,7 +79,7 @@ namespace DentiSys.Migrations
 
                     b.Property<string>("SobreNome")
                         .IsRequired()
-                        .HasMaxLength(200)
+                        .HasMaxLength(8)
                         .HasColumnType("nvarchar")
                         .HasColumnName("SobreNome");
 

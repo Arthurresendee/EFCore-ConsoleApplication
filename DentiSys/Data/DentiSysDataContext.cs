@@ -31,8 +31,6 @@ namespace DentiSys.Data
             modelBuilder.ApplyConfiguration(new PacienteMap());
             modelBuilder.ApplyConfiguration(new PacientePlanoMap());
             modelBuilder.ApplyConfiguration(new PacienteProcedimentoMap());
-
-
         }
     }
 }
