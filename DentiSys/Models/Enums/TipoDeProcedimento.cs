@@ -14,5 +14,4 @@ namespace DentiSys.Models.Enums
         ClareamentoDental = 8,
         ImplantesDentarios = 9
     }
-    //Descrição de cada de tipo de procedimento
 }

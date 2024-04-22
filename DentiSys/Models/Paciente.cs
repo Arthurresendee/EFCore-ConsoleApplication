@@ -19,5 +19,7 @@ namespace DentiSys.Models
         public string? NumeroDeTelefone { get; set; }
         public int? IdEndereco { get; set; }
         public Endereco? Endereco { get; set; }
+        public ICollection<PacientePlano> PacientePlanos { get; set; }
+        public ICollection<PacienteProcedimento> PacienteProcedimentos { get; set; }
     }
 }

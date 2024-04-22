@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DentiSys.Migrations
 {
     [DbContext(typeof(DentiSysDataContext))]
-    [Migration("20240421221624_Concertando nome da coluna 'SobreNome'")]
-    partial class ConcertandonomedacolunaSobreNome
+    [Migration("20240422130649_Relacionamento n-p-n")]
+    partial class Relacionamentonpn
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -79,7 +79,7 @@ namespace DentiSys.Migrations
 
                     b.Property<string>("SobreNome")
                         .IsRequired()
-                        .HasMaxLength(8)
+                        .HasMaxLength(200)
                         .HasColumnType("nvarchar")
                         .HasColumnName("SobreNome");
 
@@ -209,12 +209,9 @@ namespace DentiSys.Migrations
                         .HasColumnType("BIT")
                         .HasColumnName("PlanoAtivo");
 
-                    b.Property<int>("PlanoId")
-                        .HasColumnType("int");
-
                     b.HasKey("IdPlano", "IdPaciente");
 
-                    b.HasIndex("PlanoId");
+                    b.HasIndex("IdPaciente");
 
                     b.ToTable("PacientePlanos", (string)null);
                 });
@@ -300,11 +297,19 @@ namespace DentiSys.Migrations
 
             modelBuilder.Entity("DentiSys.Models.PacientePlano", b =>
                 {
-                    b.HasOne("DentiSys.Models.Plano", "Plano")
-                        .WithMany()
-                        .HasForeignKey("PlanoId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                    b.HasOne("DentiSys.Models.Paciente", "Paciente")
+                        .WithMany("PacientePlanos")
+                        .HasForeignKey("IdPaciente")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("DentiSys.Models.Plano", "Plano")
+                        .WithMany("PacientePlanos")
+                        .HasForeignKey("IdPlano")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Paciente");
 
                     b.Navigation("Plano");
                 });
@@ -314,6 +319,16 @@ namespace DentiSys.Migrations
                     b.Navigation("Dentista");
 
                     b.Navigation("Paciente");
+                });
+
+            modelBuilder.Entity("DentiSys.Models.Paciente", b =>
+                {
+                    b.Navigation("PacientePlanos");
+                });
+
+            modelBuilder.Entity("DentiSys.Models.Plano", b =>
+                {
+                    b.Navigation("PacientePlanos");
                 });
 #pragma warning restore 612, 618
         }

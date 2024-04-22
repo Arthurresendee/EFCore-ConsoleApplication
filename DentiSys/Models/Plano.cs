@@ -9,7 +9,8 @@ namespace DentiSys.Models
         public TipoDePlano TipoDePlano { get; set; }
         public string Descricao { get; set; }
         public string Coberturas { get; set; }
-        public DateTime DataInicial { get; set; } = DateTime.Now;
+        public DateTime DataInicial { get; set; }
         public DateTime DataFinal { get; set; }
+        public ICollection<PacientePlano> PacientePlanos { get; set; }
     }
 }

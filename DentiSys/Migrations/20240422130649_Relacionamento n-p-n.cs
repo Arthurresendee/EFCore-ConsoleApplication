@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DentiSys.Migrations
 {
     /// <inheritdoc />
-    public partial class PrimeiraMigração : Migration
+    public partial class Relacionamentonpn : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -68,7 +68,7 @@ namespace DentiSys.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    CEP = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
+                    SobreNome = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Idade = table.Column<int>(type: "INT", nullable: true),
                     CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: true, defaultValue: "00000000000"),
                     DataDeAniversario = table.Column<DateTime>(type: "SMALLDATETIME", nullable: true),
@@ -119,20 +119,25 @@ namespace DentiSys.Migrations
                 name: "PacientePlanos",
                 columns: table => new
                 {
-                    IdPlano = table.Column<int>(type: "int", nullable: false),
                     IdPaciente = table.Column<int>(type: "int", nullable: false),
-                    PlanoId = table.Column<int>(type: "int", nullable: false),
+                    IdPlano = table.Column<int>(type: "int", nullable: false),
                     PlanoAtivo = table.Column<bool>(type: "BIT", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PacientePlanos", x => new { x.IdPlano, x.IdPaciente });
                     table.ForeignKey(
-                        name: "FK_PacientePlanos_Planos_PlanoId",
-                        column: x => x.PlanoId,
+                        name: "FK_PacientePlanos_Pacientes_IdPaciente",
+                        column: x => x.IdPaciente,
+                        principalTable: "Pacientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_PacientePlanos_Planos_IdPlano",
+                        column: x => x.IdPlano,
                         principalTable: "Planos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -148,9 +153,9 @@ namespace DentiSys.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_PacientePlanos_PlanoId",
+                name: "IX_PacientePlanos_IdPaciente",
                 table: "PacientePlanos",
-                column: "PlanoId");
+                column: "IdPaciente");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PacienteProcedimento_ProcedimentoRealizado",

@@ -32,15 +32,6 @@ namespace DentiSys.Data.Mapping
             builder.HasIndex(x => x.ProcedimentoRealizado, "IX_PacienteProcedimento_ProcedimentoRealizado")
                 .IsUnique();
 
-            builder.HasOne(p => p.Paciente)
-                .WithMany(p => p.PacienteProcedimentos)
-                .HasForeignKey(p => p.IdPaciente)
-                .OnDelete(DeleteBehavior.Restrict); // Restrict especifica que ao excluir o pai, o filho não será excluído.
-
-            builder.HasOne(p => p.Procedimento)
-                .WithMany(p => p.PacienteProcedimentos)
-                .HasForeignKey(p => p.IdProcedimento)
-                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -3,9 +3,9 @@ using DentiSys.Models;
 
 var context = new DentiSysDataContext();
 
-InserirValoresIniciais();
+//InserirValoresIniciais();
 
-context.SaveChanges();
+//context.SaveChanges();
 
 static void InserirValoresIniciais()
 {
@@ -44,4 +44,5 @@ static void InserirValoresIniciais()
     context.Pacientes.AddRange(pacientes);
 
     context.SaveChanges();
+    Console.WriteLine("Dados inseridos com sucesso.");
 }
